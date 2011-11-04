@@ -1,3 +1,9 @@
+# revision 20237
+# category Package
+# catalog-ctan /info/memdesign
+# catalog-date 2010-10-28 17:24:15 +0200
+# catalog-license lppl1.3
+# catalog-version undef
 Name:		texlive-memdesign
 Version:	20101028
 Release:	1
@@ -27,6 +33,7 @@ document without these fonts.
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memdesign.pdf
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memdesign.tex
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memetc.bib
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -37,3 +44,5 @@ document without these fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
