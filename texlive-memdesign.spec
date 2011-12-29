@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.doc.tar
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 "A Few Notes on Book Design" provides an introduction to the
@@ -33,7 +31,6 @@ document without these fonts.
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memdesign.pdf
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memdesign.tex
 %doc %{_texmfdistdir}/doc/fonts/memdesign/memetc.bib
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,5 +41,3 @@ document without these fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
