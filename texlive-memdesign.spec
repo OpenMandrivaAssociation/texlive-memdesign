@@ -41,3 +41,17 @@ document without these fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101028-2
++ Revision: 753848
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101028-1
++ Revision: 718987
+- texlive-memdesign
+- texlive-memdesign
+- texlive-memdesign
+- texlive-memdesign
+
