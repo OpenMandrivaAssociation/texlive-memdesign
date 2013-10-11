@@ -1,12 +1,12 @@
-# revision 20237
+# revision 30138
 # category Package
 # catalog-ctan /info/memdesign
-# catalog-date 2010-10-28 17:24:15 +0200
+# catalog-date 2013-04-27 01:17:44 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-memdesign
-Version:	20101028
-Release:	2
+Version:	20130427
+Release:	1
 Summary:	Notes on book design
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/memdesign
@@ -21,9 +21,9 @@ Requires(pre):	texlive-tlpkg
 "A Few Notes on Book Design" provides an introduction to the
 business of book design. It is an extended version of what used
 to be the first part of the memoir users' manual. Please note
-that the supplied copy of the document uses commercial fonts;
-the README file contains instructions on how to compile the
-document without these fonts.
+that the compiled copy, supplied in the package, uses
+commercial fonts; the README file contains instructions on how
+to compile the document without these fonts.
 
 #-----------------------------------------------------------------------
 %files
@@ -41,17 +41,3 @@ document without these fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20101028-2
-+ Revision: 753848
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20101028-1
-+ Revision: 718987
-- texlive-memdesign
-- texlive-memdesign
-- texlive-memdesign
-- texlive-memdesign
-
