@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-memdesign
 Version:	20130427
-Release:	4
+Release:	5
 Summary:	Notes on book design
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/memdesign
