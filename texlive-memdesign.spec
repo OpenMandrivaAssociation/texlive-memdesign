@@ -1,12 +1,12 @@
-# revision 30138
+# revision 34157
 # category Package
 # catalog-ctan /info/memdesign
-# catalog-date 2013-04-27 01:17:44 +0200
+# catalog-date 2014-05-20 19:24:27 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-memdesign
-Version:	20130427
-Release:	7
+Version:	20140520
+Release:	1
 Summary:	Notes on book design
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/memdesign
