@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-memdesign
-Version:	20180303
-Release:	2
+Version:	20180915
+Release:	1
 Summary:	Notes on book design
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/memdesign
