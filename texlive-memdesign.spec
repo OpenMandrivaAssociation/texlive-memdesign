@@ -5,7 +5,7 @@
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-memdesign
-Version:	20180915
+Version:	20190228
 Release:	1
 Summary:	Notes on book design
 Group:		Publishing
