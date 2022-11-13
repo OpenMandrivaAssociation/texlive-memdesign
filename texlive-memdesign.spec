@@ -1,18 +1,12 @@
-# revision 34157
-# category Package
-# catalog-ctan /info/memdesign
-# catalog-date 2014-05-20 19:24:27 +0200
-# catalog-license lppl1.3
-# catalog-version undef
 Name:		texlive-memdesign
-Version:	20190228
+Version:	48664
 Release:	1
 Summary:	Notes on book design
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/memdesign
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -34,7 +28,7 @@ to compile the document without these fonts.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
