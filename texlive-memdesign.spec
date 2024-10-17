@@ -3,7 +3,7 @@ Version:	48664
 Release:	2
 Summary:	Notes on book design
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/memdesign
+URL:		https://www.ctan.org/tex-archive/info/memdesign
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memdesign.doc.r%{version}.tar.xz
